@@ -14,4 +14,10 @@
 
 .screen-header__icons span {
     margin-left: 25px;
+    position: relative;
+}
+
+.screen-header__dot {
+    position: absolute;
+    bottom: 20px;
 }

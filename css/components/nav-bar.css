@@ -22,11 +22,6 @@
 }
 
 .nav__dot{
-    background-color: tomato;
-    width: 5px;
-    height: 5px;
-    border-radius: 2.5px;
-    display: flex;
     position: absolute;
     left: 30px;
     bottom: 30px;
