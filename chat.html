@@ -10,7 +10,7 @@
   <body id="chat-screen">
     <header class="alt-header">
       <div class="alt-header__column">
-        <a href="more.html">
+        <a href="chats.html">
           <i class="fas fa-angle-left fa-2x"></i>
         </a>
       </div>
@@ -22,7 +22,41 @@
         <span><i class="fas fa-bars fa-lg"></i></span>
       </div>
     </header>
-    <main class="main-screen"></main>
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Tuesday, JAN 27, 2023</div>
+      <div class="message-row">
+        <img
+          src="https://d1telmomo28umc.cloudfront.net/media/public/avatars/chadongmin1996-avatar.jpg"
+        />
+        <div class="message-row__content">
+          <span class="message__author">Dong Min</span>
+          <div class="message__icon">
+            <span class="message__text">Hi!</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row__own">
+        <div class="message-row__content">
+          <div class="message__icon">
+            <span class="message__text">What's Up?</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-smile fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
     <div id="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
