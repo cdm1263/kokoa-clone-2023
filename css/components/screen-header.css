@@ -21,3 +21,16 @@
     position: absolute;
     bottom: 20px;
 }
+
+@keyframes rotatecog {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.screen-header__icons .fa-cog:hover {
+    animation: rotatecog 2s linear infinite;
+}
